@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+html {
+    font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/* Collapses borders */
+table {
+    border-collapse: collapse;
+
+/* Adds zebra striping  */
+tbody tr:nth-child(odd) {
+    background-color: rgba(173, 169, 169, 0.25);
+}
+
