@@ -6,9 +6,30 @@ html {
 /* Collapses borders */
 table {
     border-collapse: collapse;
+}
 
 /* Adds zebra striping  */
 tbody tr:nth-child(odd) {
     background-color: rgba(173, 169, 169, 0.25);
 }
+
+/* Adds spacing between text */
+th, td {
+    padding: 0.5em;
+    border-top: 1px solid #666; 
+    border-bottom: 1px solid #666; 
+    border-left: none; 
+    border-right: none; 
+}
+
+/* Adds a highlighted gray box around the clinched playoff spot X symbol */
+.highlighted-box {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    border: 1px solid gray;
+    border-radius: 4px; 
+    background-color: #837f7f; 
+    font-weight: bold; 
+}
+
 
